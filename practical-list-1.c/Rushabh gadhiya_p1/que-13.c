@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main(){
+void main() {
 
     int num1, num2, temp;
 
@@ -14,6 +14,6 @@ void main(){
     num1 = num2;
     num2 = temp;
 
-    printf("first number : %d\n",num1);
-    printf("second number : %d",num2);
+    printf("first number : %d\n", num1);
+    printf("second number : %d", num2);
 }

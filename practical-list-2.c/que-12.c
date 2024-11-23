@@ -2,15 +2,15 @@
 
 #include <stdio.h>
 
-int main (){
+int main() {
 
     int i;
     printf("enter the number: ");
-    scanf("%d",&i);
+    scanf("%d", &i);
 
-    while(i>0){
+    while(i > 0) {
 
-        printf("%d ",i);
+        printf("%d ", i);
         i--;
     }
 

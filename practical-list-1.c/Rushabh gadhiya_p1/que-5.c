@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
-void main(){
+void main() {
 
     char string[100];
 
     printf("enter the string: ");
-    scanf("%s",string);
+    scanf("%s", string);
 
     strrev(string);
 

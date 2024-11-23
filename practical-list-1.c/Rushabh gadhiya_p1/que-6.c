@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <math.h>
 
-void main(){
+void main() {
 
     int num, result;
 
     printf("enter the number: ");
-    scanf("%d",&num);
+    scanf("%d", &num);
 
     result = sqrt(num);
 

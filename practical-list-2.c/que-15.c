@@ -2,20 +2,20 @@
 
 #include <stdio.h>
 
-int main(){
+int main() {
 
-    int sum=0,temp,num;
+    int sum = 0, temp, num;
 
     printf("enter the number: ");
-    scanf("%d",&num);
+    scanf("%d", &num);
 
-    while(num>0){
-        temp = num%10;
+    while(num > 0) {
+        temp = num % 10;
         sum += temp;
-        num/=10;
+        num /= 10;
     }
 
-    printf("the sum of the digit :%d",sum);
+    printf("the sum of the digit :%d", sum);
 
     return 0;
 }

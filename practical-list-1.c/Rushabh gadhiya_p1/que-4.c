@@ -1,18 +1,18 @@
 #include <stdio.h>
 #include <string.h>
 
-void main(){
+void main() {
 
     char firstName[20], lastName[20];
 
     printf("enter your first name: ");
-    scanf("%s",&firstName);
+    scanf("%s", &firstName);
 
     printf("enter your last name: ");
-    scanf("%s",&lastName);
+    scanf("%s", &lastName);
 
     strcat(firstName, lastName);
 
     printf("%s", firstName);
-    
+
 }

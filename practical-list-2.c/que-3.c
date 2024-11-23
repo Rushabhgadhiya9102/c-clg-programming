@@ -2,13 +2,13 @@
 
 #include <stdio.h>
 
-int main (){
+int main() {
 
     int i = 10 ;
 
-    while(i>=1){
+    while(i >= 1) {
 
-        printf("%d ",i);
+        printf("%d ", i);
         i--;
 
     }

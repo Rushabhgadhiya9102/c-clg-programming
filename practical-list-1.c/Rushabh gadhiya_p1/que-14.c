@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-void main(){
+void main() {
 
-     int num1, num2;
+    int num1, num2;
 
     printf("enter the first number: ");
     scanf("%d", &num1);
@@ -14,6 +14,6 @@ void main(){
     num2 = num1 - num2;
     num1 = num1 - num2;
 
-    printf("first number : %d\n",num1);
-    printf("second number : %d",num2);
+    printf("first number : %d\n", num1);
+    printf("second number : %d", num2);
 }

@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
-void main(){
+void main() {
 
     char name[50];
 
     printf("enter your name: ");
-    scanf("%s",&name);
+    scanf("%s", &name);
 
     int length = strlen(name);
 

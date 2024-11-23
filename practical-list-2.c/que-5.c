@@ -2,11 +2,11 @@
 
 #include <stdio.h>
 
-int main(){
+int main() {
 
-    int i,sum;
+    int i, sum;
 
-    for (i=1; i<=10; i++){
+    for(i = 1; i <= 10; i++) {
 
         sum += i;
 

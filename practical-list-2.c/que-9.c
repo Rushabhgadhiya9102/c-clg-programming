@@ -2,23 +2,23 @@
 
 #include <stdio.h>
 
-int main (){
+int main() {
 
-    int i,num, count = 0;
+    int i, num, count = 0;
 
     printf("enter the number: ");
-    scanf("%d",&num);
+    scanf("%d", &num);
 
-    for(i=1; i<=num; i++){
+    for(i = 1; i <= num; i++) {
 
-        if(num%i == 0){
+        if(num % i == 0) {
             count ++;
         }
     }
 
-    if(count == 2){
+    if(count == 2) {
         printf("Prime number");
-    }else {
+    } else {
         printf("Not a prime number");
     }
 

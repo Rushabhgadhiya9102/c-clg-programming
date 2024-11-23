@@ -2,22 +2,22 @@
 
 #include <stdio.h>
 
-int main(){
+int main() {
 
     int i;
 
-    do{
+    do {
         printf("enter the number: ");
-        scanf("%d",&i);
+        scanf("%d", &i);
 
-        if(i == 0){
+        if(i == 0) {
 
             printf("Good bye");
             break;
         }
 
         printf("the printed value :%d\n", i);
-    }while(1);
+    } while(1);
 
     return 0;
 }
