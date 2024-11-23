@@ -6,7 +6,7 @@
 int main() {
     int i, j;
 
-    exit_loops:
+   
     for (i = 0; i < 5; i++) {
         for (j = 0; j < 5; j++) {
             printf("i = %d, j = %d\n", i, j);
@@ -16,7 +16,7 @@ int main() {
             }
         }
     }
-
+     exit_loops:
     printf("Exited the nested loops.\n");
     return 0;
 }
