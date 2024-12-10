@@ -4,7 +4,7 @@
 
 int main(){
 
-    int i,even, size, element;
+    int i,even, size;
 
     printf("enter the size: ");
     scanf("%d",&size);

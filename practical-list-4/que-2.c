@@ -4,7 +4,7 @@
 
 int main() {
 
-    int i, size, element, sum = 0;
+    int i, size, sum = 0;
     float average;
 
     printf("enter the size: ");

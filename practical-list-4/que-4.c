@@ -5,7 +5,7 @@
 
 int main(){
 
-    int i, size, element;
+    int i, size;
 
     printf("enter the size: ");
     scanf("%d",&size);
